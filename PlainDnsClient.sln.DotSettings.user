@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AByteArrayContent_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F7c49db7ec7794fa68a1bcc283ce647f91a6928_003F42_003F31363a01_003FByteArrayContent_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a6fcd4aa_002D92c9_002D4578_002Dbb81_002Dd7f49fd18c36/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Setup" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::830B75CE-2183-4494-9136-C86AB42816C2::net8.0::PlainDnsClientTest.Tests.Setup&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::830B75CE-2183-4494-9136-C86AB42816C2::net8.0::PlainDnsClientTest.Tests.MakeQuery&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::830B75CE-2183-4494-9136-C86AB42816C2::net8.0::PlainDnsClientTest.Tests.StartQueryTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::830B75CE-2183-4494-9136-C86AB42816C2::net8.0::PlainDnsClientTest.Tests.StartDoHQueryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
