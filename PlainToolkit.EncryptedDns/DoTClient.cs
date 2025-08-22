@@ -106,7 +106,7 @@ public static class DoTClient
 
     public static async Task<(DnsResolveResult ipv4Query, DnsResolveResult ipv6Query)> SendDnsQueryAsync(string address,TimeSpan? timeout = null)
     {
-        using var token = new CancellationTokenSource(timeout ??= TimeSpan.FromMilliseconds(300));
+        using var token = new CancellationTokenSource(timeout ??= TimeSpan.FromMilliseconds(1000));
         var v4Task = SendDnsQueryV4Async(address,token.Token);
         var v6Task = SendDnsQueryV6Async(address,token.Token);
         await Task.WhenAny(v4Task, v6Task);

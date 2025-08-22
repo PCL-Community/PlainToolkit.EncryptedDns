@@ -20,7 +20,7 @@ public class Tests
         }
     }
     /// <summary>
-    /// DNS 查询报文生成测试
+/// DNS 查询报文生成测试
     /// </summary>
     [Test]
     public void MakeQuery()
@@ -63,7 +63,7 @@ public class Tests
     [Test]
     public void StartDoHQueryTest()
     {
-        DoHClient.DoHAddress = "https://223.5.5.5/dns-query";
+        DoHClient.DoHAddress = "https://doh.pub/dns-query";
         var result = DoHClient.SendDnsQueryAsync("blog.tangge233.top").GetAwaiter().GetResult();
         Console.WriteLine(result.ipv4Query.Status);
         Console.WriteLine(result.ipv6Query.Status);
@@ -138,4 +138,20 @@ public class Tests
     /// </summary>
     [Test]
     public void DoTInvalidValueOutOfMaxPortTest() => DoTClient.DoTPort = 65536;
+    /// <summary>
+    /// Http request test（Custom ConnectCallback）
+    /// </summary>
+    [Test]
+    public void HttpConnectionCallbackTest()
+    {
+        DoHClient.DoHAddress = "https://doh.pub/dns-query";
+        HttpConnectCallback.QueryIssuer = DnsQueryIssuer.DoH;
+        using var client = new HttpClient(new SocketsHttpHandler()
+        {
+            ConnectCallback = async(context, cts) => await HttpConnectCallback.GetNetworkStream(context, cts)
+        });
+        Console.WriteLine(client.GetAsync("https://cn.bing.com").Result.Content.ReadAsStringAsync().Result);
+        Console.WriteLine(client.GetAsync("https://boximengling.luotianyi-0712.top").Result.Content.ReadAsStringAsync().Result);
+        Console.WriteLine(client.GetAsync("https://blog.tangge233.top/cdn-cgi/trace").Result.Content.ReadAsStringAsync().Result);
+    }
 }

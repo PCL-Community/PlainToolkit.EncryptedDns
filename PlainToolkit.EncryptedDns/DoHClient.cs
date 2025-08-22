@@ -73,7 +73,7 @@ public static class DoHClient
 
     public static async Task<(DnsResolveResult ipv4Query, DnsResolveResult ipv6Query)> SendDnsQueryAsync(string address,TimeSpan? timeout = null)
     {
-        using var token = new CancellationTokenSource(timeout??TimeSpan.FromMilliseconds(300));
+        using var token = new CancellationTokenSource(timeout??TimeSpan.FromMilliseconds(1000));
         var queryV4 = SendDnsQueryV4Async(address, token.Token);
         var queryV6 = SendDnsQueryV6Async(address, token.Token);
         var task = new List<Task<DnsResolveResult>>([queryV4,queryV6]);
