@@ -26,7 +26,7 @@ For detailed instructions on how to perform DoT and DoH queries within the libra
 
 If you encounter any bugs or have suggestions for improvements, feel free to open an issue on our repository.
 
-Contributions are welcome. If you have the skills and interest, we also invite pull requests.
+Contributions are welcome. If you have the skills and interest, we also welcome pull requests.
 
 For security-related issues, please report them through the Security tab.
 
