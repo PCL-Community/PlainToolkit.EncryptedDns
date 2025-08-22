@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f459239e-dcb8-4021-84c5-1db12d12dbea" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/HttpConnectCallback.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/SystemDnsClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainDnsClient.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/PlainDnsClient.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainDnsClientTest/DnsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlainDnsClientTest/DnsTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/DnsResolveResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/DnsResolveResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/DoHClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/DoHClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/DoTClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/DoTClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/NetAddress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/NetAddress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlainToolkit.EncryptedDns/Utils.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;copytiao&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:PCL-Community/PlainToolkit.EncryptedDns.git&quot;,
+    &quot;accountId&quot;: &quot;fa8dd0ba-38a6-455b-94af-50fcb63a6e0b&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c49db7ec7794fa68a1bcc283ce647f91a6928/42/31363a01/ByteArrayContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/DnsResolveResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/DoTClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/HttpConnectCallback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/HttpProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/NetAddress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/SystemDnsClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31XKOpy4OC777lxZQJhV84zPTLT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "a6fcd4aa-92c9-4578-bb81-d7f49fd18c36.executor": "Run",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f459239e-dcb8-4021-84c5-1db12d12dbea" name="更改" comment="" />
+      <created>1755664951712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755664951712</updated>
+      <workItem from="1755664953682" duration="27522000" />
+      <workItem from="1755750737642" duration="22457000" />
+      <workItem from="1755822758974" duration="2683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

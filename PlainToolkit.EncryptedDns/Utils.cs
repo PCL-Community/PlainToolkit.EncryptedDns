@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using System.Net;
+using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -139,7 +140,7 @@ public static class Utils
                 result.AddressList.Add(new NetAddress
                 {
                     Address = ip,
-                    TimeToLive = (int)ttl,
+                    ExpiredAt = DateTime.Now.AddSeconds(ttl),
                     Type = type == 1 ? IPAddressType.IPv4 : IPAddressType.IPv6
                 });
                 offset += rdLength;

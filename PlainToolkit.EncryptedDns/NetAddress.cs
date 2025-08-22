@@ -5,7 +5,7 @@ namespace PlainToolkit.EncryptedDns;
 public class NetAddress
 {
     public required IPAddress Address;
-    public int TimeToLive;
+    public DateTime ExpiredAt;
     public IPAddressType Type;
 }
 

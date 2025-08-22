@@ -14,6 +14,10 @@ public class DnsResolveResult
 public enum DnsResolveStatus
 {
     /// <summary>
+    /// 超时
+    /// </summary>
+    Timeout,
+    /// <summary>
     /// 成功
     /// </summary>
     Success,
