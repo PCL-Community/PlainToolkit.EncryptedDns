@@ -15,7 +15,7 @@ public class Tests
         foreach(var ip in result.AddressList ?? [])
         {
             Console.WriteLine(ip.Address.ToString());
-            //Console.WriteLine(ip.TimeToLive);
+            Console.WriteLine(ip.ExpiredAt);
             Console.WriteLine(ip.Type);
         }
     }

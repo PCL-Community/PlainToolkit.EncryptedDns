@@ -37,6 +37,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c49db7ec7794fa68a1bcc283ce647f91a6928/42/31363a01/ByteArrayContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/wuliaodexiaoluo/RiderProjects/PlainDnsClient/PlainDnsClientTest/DnsTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/wuliaodexiaoluo/RiderProjects/PlainDnsClient/PlainDnsClientTest/DnsTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/DnsResolveResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/DoTClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlainToolkit.EncryptedDns/HttpConnectCallback.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,9 +62,10 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "a6fcd4aa-92c9-4578-bb81-d7f49fd18c36.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "正在合并 main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +85,7 @@
       <workItem from="1755664953682" duration="27522000" />
       <workItem from="1755750737642" duration="22457000" />
       <workItem from="1755822758974" duration="2683000" />
+      <workItem from="1755825936735" duration="8877000" />
     </task>
     <servers />
   </component>
